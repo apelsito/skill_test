@@ -1,6 +1,7 @@
 ---
 name: "spreadsheets"
 description: "Use this skill when a user requests to create, modify, analyze, visualize, or work with spreadsheet files (`.xlsx`, `.xls`, `.csv`, `.tsv`) with formulas, formatting, charts, tables, and recalculation."
+allowed-tools: list_skill_files read_skill_file read_temp_file list_temp_files write_temp_file save_output_file
 ---
 
 # Spreadsheets skill

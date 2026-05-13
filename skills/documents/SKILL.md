@@ -1,6 +1,7 @@
 ---
 name: documents
 description: Create, edit, redline, and comment on `.docx` files inside the container, with a strict artifact-tool render-and-verify workflow. Use `render_docx.py --renderer artifact-tool` to generate page PNGs for visual QA, then iterate until layout is flawless before delivering the final DOCX.
+allowed-tools: list_skill_files read_skill_file read_temp_file list_temp_files write_temp_file save_output_file run_skill_script
 ---
 
 # Documents Skill (Read • Create • Edit • Redline • Comment)
