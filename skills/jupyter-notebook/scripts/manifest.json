@@ -1,0 +1,26 @@
+{
+  "scripts": {
+    "new_notebook.py": {
+      "arguments": {
+        "--kind": {
+          "type": "enum",
+          "values": [
+            "experiment",
+            "tutorial"
+          ]
+        },
+        "--title": {
+          "type": "string",
+          "required": true
+        },
+        "--out": {
+          "type": "output_path",
+          "required": true
+        },
+        "--force": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}
