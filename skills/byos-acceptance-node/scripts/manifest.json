@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "emit.js": {
+      "env": "minimal",
+      "arguments": {}
+    },
+    "cancel30.js": {
+      "env": "minimal",
+      "arguments": {}
+    }
+  }
+}
