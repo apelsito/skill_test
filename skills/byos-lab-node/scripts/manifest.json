@@ -1,0 +1,1 @@
+{"scripts":{"proof.js":{"env":"minimal","arguments":{"--output":{"type":"output_path","required":true},"--delay":{"type":"integer"}}}}}
