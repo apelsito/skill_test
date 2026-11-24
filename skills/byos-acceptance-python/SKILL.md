@@ -19,6 +19,10 @@ The script prints its independently calculated byte count and SHA-256.
 For the cancellation case, add `--delay 30`. The script waits before writing, so
 cancel the active run while it is waiting. Cancellation and remote cleanup are separate outcomes.
 
+For the live-output case, pass `--live` with `--output python-proof.bin` and omit
+`--delay`. The script prints a startup marker, waits 30 seconds, writes the same
+artifact, and prints a completion marker. Save the artifact as in the normal case.
+
 Chat and Bulk Run use the same script and artifact. To select this skill in the
 Bulk Run Analysis tab, enable its batch override in My Skills first. No business
 input or extra dependency is required. Use an existing authorized Batch Run.

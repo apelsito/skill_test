@@ -4,7 +4,8 @@
       "env": "minimal",
       "arguments": {
         "--output": {"type": "output_path", "required": true},
-        "--delay": {"type": "integer"}
+        "--delay": {"type": "integer"},
+        "--live": {"type": "boolean"}
       }
     }
   }
