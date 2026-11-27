@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "generate_python-proof.py": {
+      "env": "minimal",
+      "arguments": {
+        "--input": {"type": "input_path", "required": true},
+        "--output": {"type": "output_path", "required": true}
+      }
+    }
+  }
+}
