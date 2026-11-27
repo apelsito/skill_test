@@ -3,8 +3,6 @@
 import argparse
 import json
 from pathlib import Path
-import subprocess
-import sys
 import time
 
 
@@ -29,9 +27,9 @@ def main() -> int:
         return 0
     if selected[0] == "BYOS-SMOKE failure":
         return 7
-    child = subprocess.Popen([sys.executable, "-c", "import time; time.sleep(60)"])
-    print(json.dumps({"event": "smoke_child_started", "child_pid": child.pid}), flush=True)
-    return child.wait() or 8
+    print(json.dumps({"event": "smoke_wait_started"}), flush=True)
+    time.sleep(60)
+    return 8
 
 
 if __name__ == "__main__":
