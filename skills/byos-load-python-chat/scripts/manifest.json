@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "emit.py": {
+      "env": "minimal",
+      "arguments": {
+        "--output": {"type": "output_path", "required": true}
+      }
+    }
+  }
+}
